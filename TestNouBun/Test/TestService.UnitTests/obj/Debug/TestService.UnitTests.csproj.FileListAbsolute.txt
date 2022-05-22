@@ -1,0 +1,36 @@
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\App_Data\Database1.mdf
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\App_Data\Database1_log.ldf
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.dll.config
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.dll
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.pdb
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\Server.dll
+D:\Facultate\Test\Test\TestService.UnitTests\bin\Debug\Server.pdb
+D:\Facultate\Test\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.csprojResolveAssemblyReference.cache
+D:\Facultate\Test\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.dll
+D:\Facultate\Test\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\App_Data\Database1.mdf
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\App_Data\Database1_log.ldf
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.dll.config
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.dll
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\Server.dll
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\Server.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\bin\Debug\Server.dll.config
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.csproj.CopyComplete
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.dll
+E:\Scoala\An 3\Semestrul2\II\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.pdb
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\App_Data\Database1.mdf
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\App_Data\Database1_log.ldf
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.dll.config
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.dll
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\TestService.UnitTests.pdb
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\Server.dll
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\bin\Debug\Server.pdb
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.csprojResolveAssemblyReference.cache
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.dll
+D:\Facultate\TestNouBun\Test\TestService.UnitTests\obj\Debug\TestService.UnitTests.pdb

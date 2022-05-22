@@ -1,0 +1,115 @@
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe.config
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\bin\Debug\CompanyApp.pdb
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csprojResolveAssemblyReference.cache
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.Cache
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\obj\Debug\CompanyApp.exe
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\obj\Debug\CompanyApp.pdb
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Proiect\CompanyApp\CompanyApp\obj\Debug\CompanyApp.Register.resources
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe.config
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.exe
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.pdb
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\CompanyApp.pdb
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csprojResolveAssemblyReference.cache
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.Cache
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\Database1.mdf
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\Database1_log.ldf
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.RegisterWindow.resources
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.Form3.resources
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe.config
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\bin\Debug\CompanyApp.pdb
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.Form3.resources
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.RegisterWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.cache
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\Proiect\CompanyApp-Project\CompanyApp\CompanyApp\obj\Debug\CompanyApp.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\bin\Debug\CompanyApp.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\bin\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\bin\Debug\CompanyApp.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.Form3.resources
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.RegisterWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.cache
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.pdb
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\bin\Debug\CompanyApp.exe.config
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\bin\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\bin\Debug\CompanyApp.pdb
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.Form3.resources
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.RegisterWindow.resources
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.cache
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\CompanyApp\obj\Debug\CompanyApp.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.RecoveryPasswordWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\bin\Debug\Form1.resx
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\bin\Debug\Form1.cs
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\bin\Debug\Form1.Designer.cs
+E:\Scoala\An 3\Semestrul2\II\Test\Test\CompanyApp\obj\Debug\CompanyApp.Form5.resources
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Project\Test\Test\CompanyApp\bin\Debug\CompanyApp.exe.config
+D:\Facultate\An III (Semestrul II)\Informatica Industriala (II)\Project\Test\Test\CompanyApp\obj\Debug\CompanyApp.pdb
+D:\Facultate\Test\Test\CompanyApp\bin\Debug\CompanyApp.exe.config
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.pdb
+D:\Facultate\Test\Test\CompanyApp\bin\Debug\Form1.resx
+D:\Facultate\Test\Test\CompanyApp\bin\Debug\Form1.cs
+D:\Facultate\Test\Test\CompanyApp\bin\Debug\Form1.Designer.cs
+D:\Facultate\Test\Test\CompanyApp\bin\Debug\CompanyApp.exe
+D:\Facultate\Test\Test\CompanyApp\bin\Debug\CompanyApp.pdb
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.csprojResolveAssemblyReference.cache
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.Form3.resources
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.RecoveryPasswordWindow.resources
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.Form5.resources
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.RegisterWindow.resources
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.Cache
+D:\Facultate\Test\Test\CompanyApp\obj\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\bin\Debug\Form1.resx
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\bin\Debug\Form1.cs
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\bin\Debug\Form1.Designer.cs
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\bin\Debug\CompanyApp.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\bin\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\bin\Debug\CompanyApp.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.Form3.resources
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.RecoveryPasswordWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.Form5.resources
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.RegisterWindow.resources
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.cache
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.exe
+E:\Scoala\An 3\Semestrul2\II\Test\CompanyApp\obj\Debug\CompanyApp.pdb
+D:\Facultate\TestNouBun\Test\CompanyApp\bin\Debug\CompanyApp.exe.config
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.exe
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.pdb
+D:\Facultate\TestNouBun\Test\CompanyApp\bin\Debug\Form1.resx
+D:\Facultate\TestNouBun\Test\CompanyApp\bin\Debug\Form1.cs
+D:\Facultate\TestNouBun\Test\CompanyApp\bin\Debug\Form1.Designer.cs
+D:\Facultate\TestNouBun\Test\CompanyApp\bin\Debug\CompanyApp.exe
+D:\Facultate\TestNouBun\Test\CompanyApp\bin\Debug\CompanyApp.pdb
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.csprojResolveAssemblyReference.cache
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.LoginWindow.resources
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.Form3.resources
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.RecoveryPasswordWindow.resources
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.Form5.resources
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.Properties.Resources.resources
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.RegisterWindow.resources
+D:\Facultate\TestNouBun\Test\CompanyApp\obj\Debug\CompanyApp.csproj.GenerateResource.Cache

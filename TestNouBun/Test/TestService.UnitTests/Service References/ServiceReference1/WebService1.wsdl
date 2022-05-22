@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getUsers">
+        <s:complexType />
+      </s:element>
+      <s:element name="getUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUsersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userMail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addUserResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="updateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userRole" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateUserResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="isUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userPassword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="isUserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isAdminResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="isAdminResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserByName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserByNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserByNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userMail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getPasswordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUsersExceptFriends">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUsersExceptFriendsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUsersExceptFriendsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getUserNameById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserNameByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserNameByIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="friendRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="friendRequestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="declineFriendRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="declineFriendRequestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="acceptFriendRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="acceptFriendRequestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getFriendRequests">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFriendRequestsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getFriendRequestsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTasks">
+        <s:complexType />
+      </s:element>
+      <s:element name="getTasksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTasksResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTasksByUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTasksByUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTasksByUserResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUsersByTaskName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="taskName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUsersByTaskNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUsersByTaskNameResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskRequirements" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="taskDeadline" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskPersons" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addTaskResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="updateTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idTask" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="persons" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskRequirements" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="taskDeadline" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateTaskResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="deleteTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="taskName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteTaskResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getCodeTaskByName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCodeTaskByNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getCodeTaskByNameResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChatByCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="chatCode" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChatByCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getChatByCodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChatByUsers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChatByUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getChatByUsersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChatCodeByUsers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChatCodeByUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getChatCodeByUsersResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="chatCode" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addMessageResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="addFriend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addFriendResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="deleteFriend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteFriendResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getFriendsOfUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFriendsOfUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getFriendsOfUserResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="makeAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="makeAdminResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:getUsers" />
+  </wsdl:message>
+  <wsdl:message name="getUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:getUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="addUserSoapIn">
+    <wsdl:part name="parameters" element="tns:addUser" />
+  </wsdl:message>
+  <wsdl:message name="addUserSoapOut">
+    <wsdl:part name="parameters" element="tns:addUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:updateUser" />
+  </wsdl:message>
+  <wsdl:message name="updateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:updateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="isUserSoapIn">
+    <wsdl:part name="parameters" element="tns:isUser" />
+  </wsdl:message>
+  <wsdl:message name="isUserSoapOut">
+    <wsdl:part name="parameters" element="tns:isUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="isAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:isAdmin" />
+  </wsdl:message>
+  <wsdl:message name="isAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:isAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserByNameSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserByName" />
+  </wsdl:message>
+  <wsdl:message name="getUserByNameSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:getPassword" />
+  </wsdl:message>
+  <wsdl:message name="getPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:getPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUsersExceptFriendsSoapIn">
+    <wsdl:part name="parameters" element="tns:getUsersExceptFriends" />
+  </wsdl:message>
+  <wsdl:message name="getUsersExceptFriendsSoapOut">
+    <wsdl:part name="parameters" element="tns:getUsersExceptFriendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserNameByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserNameById" />
+  </wsdl:message>
+  <wsdl:message name="getUserNameByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserNameByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="friendRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:friendRequest" />
+  </wsdl:message>
+  <wsdl:message name="friendRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:friendRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="declineFriendRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:declineFriendRequest" />
+  </wsdl:message>
+  <wsdl:message name="declineFriendRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:declineFriendRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="acceptFriendRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:acceptFriendRequest" />
+  </wsdl:message>
+  <wsdl:message name="acceptFriendRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:acceptFriendRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFriendRequestsSoapIn">
+    <wsdl:part name="parameters" element="tns:getFriendRequests" />
+  </wsdl:message>
+  <wsdl:message name="getFriendRequestsSoapOut">
+    <wsdl:part name="parameters" element="tns:getFriendRequestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTasksSoapIn">
+    <wsdl:part name="parameters" element="tns:getTasks" />
+  </wsdl:message>
+  <wsdl:message name="getTasksSoapOut">
+    <wsdl:part name="parameters" element="tns:getTasksResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTasksByUserSoapIn">
+    <wsdl:part name="parameters" element="tns:getTasksByUser" />
+  </wsdl:message>
+  <wsdl:message name="getTasksByUserSoapOut">
+    <wsdl:part name="parameters" element="tns:getTasksByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUsersByTaskNameSoapIn">
+    <wsdl:part name="parameters" element="tns:getUsersByTaskName" />
+  </wsdl:message>
+  <wsdl:message name="getUsersByTaskNameSoapOut">
+    <wsdl:part name="parameters" element="tns:getUsersByTaskNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="addTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:addTask" />
+  </wsdl:message>
+  <wsdl:message name="addTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:addTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:updateTask" />
+  </wsdl:message>
+  <wsdl:message name="updateTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:updateTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteTask" />
+  </wsdl:message>
+  <wsdl:message name="deleteTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCodeTaskByNameSoapIn">
+    <wsdl:part name="parameters" element="tns:getCodeTaskByName" />
+  </wsdl:message>
+  <wsdl:message name="getCodeTaskByNameSoapOut">
+    <wsdl:part name="parameters" element="tns:getCodeTaskByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="getChatByCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:getChatByCode" />
+  </wsdl:message>
+  <wsdl:message name="getChatByCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:getChatByCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="getChatByUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:getChatByUsers" />
+  </wsdl:message>
+  <wsdl:message name="getChatByUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:getChatByUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="getChatCodeByUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:getChatCodeByUsers" />
+  </wsdl:message>
+  <wsdl:message name="getChatCodeByUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:getChatCodeByUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="addMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:addMessage" />
+  </wsdl:message>
+  <wsdl:message name="addMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:addMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="addFriendSoapIn">
+    <wsdl:part name="parameters" element="tns:addFriend" />
+  </wsdl:message>
+  <wsdl:message name="addFriendSoapOut">
+    <wsdl:part name="parameters" element="tns:addFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteFriendSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteFriend" />
+  </wsdl:message>
+  <wsdl:message name="deleteFriendSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFriendsOfUserSoapIn">
+    <wsdl:part name="parameters" element="tns:getFriendsOfUser" />
+  </wsdl:message>
+  <wsdl:message name="getFriendsOfUserSoapOut">
+    <wsdl:part name="parameters" element="tns:getFriendsOfUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="makeAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:makeAdmin" />
+  </wsdl:message>
+  <wsdl:message name="makeAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:makeAdminResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="getUsers">
+      <wsdl:input message="tns:getUsersSoapIn" />
+      <wsdl:output message="tns:getUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <wsdl:input message="tns:addUserSoapIn" />
+      <wsdl:output message="tns:addUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateUser">
+      <wsdl:input message="tns:updateUserSoapIn" />
+      <wsdl:output message="tns:updateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="isUser">
+      <wsdl:input message="tns:isUserSoapIn" />
+      <wsdl:output message="tns:isUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="isAdmin">
+      <wsdl:input message="tns:isAdminSoapIn" />
+      <wsdl:output message="tns:isAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserByName">
+      <wsdl:input message="tns:getUserByNameSoapIn" />
+      <wsdl:output message="tns:getUserByNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPassword">
+      <wsdl:input message="tns:getPasswordSoapIn" />
+      <wsdl:output message="tns:getPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsersExceptFriends">
+      <wsdl:input message="tns:getUsersExceptFriendsSoapIn" />
+      <wsdl:output message="tns:getUsersExceptFriendsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserNameById">
+      <wsdl:input message="tns:getUserNameByIdSoapIn" />
+      <wsdl:output message="tns:getUserNameByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="friendRequest">
+      <wsdl:input message="tns:friendRequestSoapIn" />
+      <wsdl:output message="tns:friendRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="declineFriendRequest">
+      <wsdl:input message="tns:declineFriendRequestSoapIn" />
+      <wsdl:output message="tns:declineFriendRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="acceptFriendRequest">
+      <wsdl:input message="tns:acceptFriendRequestSoapIn" />
+      <wsdl:output message="tns:acceptFriendRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFriendRequests">
+      <wsdl:input message="tns:getFriendRequestsSoapIn" />
+      <wsdl:output message="tns:getFriendRequestsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTasks">
+      <wsdl:input message="tns:getTasksSoapIn" />
+      <wsdl:output message="tns:getTasksSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTasksByUser">
+      <wsdl:input message="tns:getTasksByUserSoapIn" />
+      <wsdl:output message="tns:getTasksByUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsersByTaskName">
+      <wsdl:input message="tns:getUsersByTaskNameSoapIn" />
+      <wsdl:output message="tns:getUsersByTaskNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addTask">
+      <wsdl:input message="tns:addTaskSoapIn" />
+      <wsdl:output message="tns:addTaskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateTask">
+      <wsdl:input message="tns:updateTaskSoapIn" />
+      <wsdl:output message="tns:updateTaskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTask">
+      <wsdl:input message="tns:deleteTaskSoapIn" />
+      <wsdl:output message="tns:deleteTaskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCodeTaskByName">
+      <wsdl:input message="tns:getCodeTaskByNameSoapIn" />
+      <wsdl:output message="tns:getCodeTaskByNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChatByCode">
+      <wsdl:input message="tns:getChatByCodeSoapIn" />
+      <wsdl:output message="tns:getChatByCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChatByUsers">
+      <wsdl:input message="tns:getChatByUsersSoapIn" />
+      <wsdl:output message="tns:getChatByUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChatCodeByUsers">
+      <wsdl:input message="tns:getChatCodeByUsersSoapIn" />
+      <wsdl:output message="tns:getChatCodeByUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addMessage">
+      <wsdl:input message="tns:addMessageSoapIn" />
+      <wsdl:output message="tns:addMessageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <wsdl:input message="tns:addFriendSoapIn" />
+      <wsdl:output message="tns:addFriendSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFriend">
+      <wsdl:input message="tns:deleteFriendSoapIn" />
+      <wsdl:output message="tns:deleteFriendSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFriendsOfUser">
+      <wsdl:input message="tns:getFriendsOfUserSoapIn" />
+      <wsdl:output message="tns:getFriendsOfUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="makeAdmin">
+      <wsdl:input message="tns:makeAdminSoapIn" />
+      <wsdl:output message="tns:makeAdminSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getUsers">
+      <soap:operation soapAction="http://tempuri.org/getUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <soap:operation soapAction="http://tempuri.org/addUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateUser">
+      <soap:operation soapAction="http://tempuri.org/updateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isUser">
+      <soap:operation soapAction="http://tempuri.org/isUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isAdmin">
+      <soap:operation soapAction="http://tempuri.org/isAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserByName">
+      <soap:operation soapAction="http://tempuri.org/getUserByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPassword">
+      <soap:operation soapAction="http://tempuri.org/getPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsersExceptFriends">
+      <soap:operation soapAction="http://tempuri.org/getUsersExceptFriends" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserNameById">
+      <soap:operation soapAction="http://tempuri.org/getUserNameById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="friendRequest">
+      <soap:operation soapAction="http://tempuri.org/friendRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="declineFriendRequest">
+      <soap:operation soapAction="http://tempuri.org/declineFriendRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="acceptFriendRequest">
+      <soap:operation soapAction="http://tempuri.org/acceptFriendRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendRequests">
+      <soap:operation soapAction="http://tempuri.org/getFriendRequests" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTasks">
+      <soap:operation soapAction="http://tempuri.org/getTasks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTasksByUser">
+      <soap:operation soapAction="http://tempuri.org/getTasksByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsersByTaskName">
+      <soap:operation soapAction="http://tempuri.org/getUsersByTaskName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTask">
+      <soap:operation soapAction="http://tempuri.org/addTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateTask">
+      <soap:operation soapAction="http://tempuri.org/updateTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTask">
+      <soap:operation soapAction="http://tempuri.org/deleteTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCodeTaskByName">
+      <soap:operation soapAction="http://tempuri.org/getCodeTaskByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChatByCode">
+      <soap:operation soapAction="http://tempuri.org/getChatByCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChatByUsers">
+      <soap:operation soapAction="http://tempuri.org/getChatByUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChatCodeByUsers">
+      <soap:operation soapAction="http://tempuri.org/getChatCodeByUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addMessage">
+      <soap:operation soapAction="http://tempuri.org/addMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <soap:operation soapAction="http://tempuri.org/addFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFriend">
+      <soap:operation soapAction="http://tempuri.org/deleteFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendsOfUser">
+      <soap:operation soapAction="http://tempuri.org/getFriendsOfUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="makeAdmin">
+      <soap:operation soapAction="http://tempuri.org/makeAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getUsers">
+      <soap12:operation soapAction="http://tempuri.org/getUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <soap12:operation soapAction="http://tempuri.org/addUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateUser">
+      <soap12:operation soapAction="http://tempuri.org/updateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isUser">
+      <soap12:operation soapAction="http://tempuri.org/isUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isAdmin">
+      <soap12:operation soapAction="http://tempuri.org/isAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserByName">
+      <soap12:operation soapAction="http://tempuri.org/getUserByName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPassword">
+      <soap12:operation soapAction="http://tempuri.org/getPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsersExceptFriends">
+      <soap12:operation soapAction="http://tempuri.org/getUsersExceptFriends" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserNameById">
+      <soap12:operation soapAction="http://tempuri.org/getUserNameById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="friendRequest">
+      <soap12:operation soapAction="http://tempuri.org/friendRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="declineFriendRequest">
+      <soap12:operation soapAction="http://tempuri.org/declineFriendRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="acceptFriendRequest">
+      <soap12:operation soapAction="http://tempuri.org/acceptFriendRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendRequests">
+      <soap12:operation soapAction="http://tempuri.org/getFriendRequests" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTasks">
+      <soap12:operation soapAction="http://tempuri.org/getTasks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTasksByUser">
+      <soap12:operation soapAction="http://tempuri.org/getTasksByUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsersByTaskName">
+      <soap12:operation soapAction="http://tempuri.org/getUsersByTaskName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTask">
+      <soap12:operation soapAction="http://tempuri.org/addTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateTask">
+      <soap12:operation soapAction="http://tempuri.org/updateTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTask">
+      <soap12:operation soapAction="http://tempuri.org/deleteTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCodeTaskByName">
+      <soap12:operation soapAction="http://tempuri.org/getCodeTaskByName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChatByCode">
+      <soap12:operation soapAction="http://tempuri.org/getChatByCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChatByUsers">
+      <soap12:operation soapAction="http://tempuri.org/getChatByUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChatCodeByUsers">
+      <soap12:operation soapAction="http://tempuri.org/getChatCodeByUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addMessage">
+      <soap12:operation soapAction="http://tempuri.org/addMessage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <soap12:operation soapAction="http://tempuri.org/addFriend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFriend">
+      <soap12:operation soapAction="http://tempuri.org/deleteFriend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendsOfUser">
+      <soap12:operation soapAction="http://tempuri.org/getFriendsOfUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="makeAdmin">
+      <soap12:operation soapAction="http://tempuri.org/makeAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44344/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44344/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

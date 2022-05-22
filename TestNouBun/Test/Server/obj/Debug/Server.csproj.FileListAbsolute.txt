@@ -1,0 +1,284 @@
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\Server.dll.config
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\Server.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\Server.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\csc.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\csc.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\csc.rsp
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\csi.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\csi.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\csi.rsp
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.AppContext.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Collections.Immutable.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Console.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.IO.Compression.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.IO.FileSystem.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.IO.Pipes.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Reflection.Metadata.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Security.AccessControl.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Security.Claims.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.ValueTuple.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Xml.XPath.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\vbc.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\vbc.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\vbc.rsp
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\VBCSCompiler.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\roslyn\VBCSCompiler.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\obj\Debug\Server.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\obj\Debug\Server.csproj.CopyComplete
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\obj\Debug\Server.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\obj\Debug\Server.pdb
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\Server.dll.config
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\Server.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\Server.pdb
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\csc.exe
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\csc.exe.config
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\csc.rsp
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\csi.exe
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\csi.exe.config
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\csi.rsp
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.AppContext.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Collections.Immutable.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Console.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.IO.Compression.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.IO.FileSystem.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.IO.Pipes.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Reflection.Metadata.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Security.AccessControl.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Security.Claims.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.ValueTuple.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Xml.XPath.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\vbc.exe
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\vbc.exe.config
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\vbc.rsp
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\VBCSCompiler.exe
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\roslyn\VBCSCompiler.exe.config
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\obj\Debug\Server.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\obj\Debug\Server.csproj.CopyComplete
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\obj\Debug\Server.dll
+E:\Scoala\An 3\Semestrul2\II\CompanyApp\Test\Test\Server\obj\Debug\Server.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\App_Data\Database1.mdf
+E:\Scoala\An 3\Semestrul2\II\Test\Test\Server\bin\App_Data\Database1_log.ldf
+D:\Facultate\Test\Test\Server\bin\App_Data\Database1.mdf
+D:\Facultate\Test\Test\Server\bin\App_Data\Database1_log.ldf
+D:\Facultate\Test\Test\Server\bin\Server.dll.config
+D:\Facultate\Test\Test\Server\bin\Server.dll
+D:\Facultate\Test\Test\Server\bin\Server.pdb
+D:\Facultate\Test\Test\Server\bin\roslyn\csc.exe
+D:\Facultate\Test\Test\Server\bin\roslyn\csc.exe.config
+D:\Facultate\Test\Test\Server\bin\roslyn\csc.rsp
+D:\Facultate\Test\Test\Server\bin\roslyn\csi.exe
+D:\Facultate\Test\Test\Server\bin\roslyn\csi.exe.config
+D:\Facultate\Test\Test\Server\bin\roslyn\csi.rsp
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Facultate\Test\Test\Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Facultate\Test\Test\Server\bin\roslyn\System.AppContext.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Console.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.IO.Compression.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.IO.FileSystem.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.IO.Pipes.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Security.AccessControl.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Security.Claims.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.ValueTuple.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Xml.XPath.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Facultate\Test\Test\Server\bin\roslyn\vbc.exe
+D:\Facultate\Test\Test\Server\bin\roslyn\vbc.exe.config
+D:\Facultate\Test\Test\Server\bin\roslyn\vbc.rsp
+D:\Facultate\Test\Test\Server\bin\roslyn\VBCSCompiler.exe
+D:\Facultate\Test\Test\Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Facultate\Test\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Facultate\Test\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Facultate\Test\Test\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Facultate\Test\Test\Server\obj\Debug\Server.dll
+D:\Facultate\Test\Test\Server\obj\Debug\Server.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\App_Data\Database1.mdf
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\App_Data\Database1_log.ldf
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\Server.dll.config
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\Server.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\Server.pdb
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\csc.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\csc.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\csc.rsp
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\csi.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\csi.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\csi.rsp
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.AppContext.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Collections.Immutable.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Console.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.IO.Compression.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.IO.FileSystem.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.IO.Pipes.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Reflection.Metadata.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Security.AccessControl.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Security.Claims.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.ValueTuple.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Xml.XPath.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\vbc.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\vbc.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\vbc.rsp
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\VBCSCompiler.exe
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\roslyn\VBCSCompiler.exe.config
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Scoala\An 3\Semestrul2\II\Test\Server\obj\Debug\Server.csprojAssemblyReference.cache
+E:\Scoala\An 3\Semestrul2\II\Test\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\Scoala\An 3\Semestrul2\II\Test\Server\obj\Debug\Server.csproj.CopyComplete
+E:\Scoala\An 3\Semestrul2\II\Test\Server\obj\Debug\Server.dll
+E:\Scoala\An 3\Semestrul2\II\Test\Server\obj\Debug\Server.pdb
+D:\Facultate\TestNouBun\Test\Server\bin\App_Data\Database1.mdf
+D:\Facultate\TestNouBun\Test\Server\bin\App_Data\Database1_log.ldf
+D:\Facultate\TestNouBun\Test\Server\bin\Server.dll.config
+D:\Facultate\TestNouBun\Test\Server\bin\Server.dll
+D:\Facultate\TestNouBun\Test\Server\bin\Server.pdb
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\csc.exe
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\csc.exe.config
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\csc.rsp
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\csi.exe
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\csi.exe.config
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\csi.rsp
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.AppContext.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Console.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.IO.Compression.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.IO.FileSystem.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.IO.Pipes.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Security.AccessControl.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Security.Claims.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.ValueTuple.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Xml.XPath.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\vbc.exe
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\vbc.exe.config
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\vbc.rsp
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\VBCSCompiler.exe
+D:\Facultate\TestNouBun\Test\Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Facultate\TestNouBun\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Facultate\TestNouBun\Test\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Facultate\TestNouBun\Test\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Facultate\TestNouBun\Test\Server\obj\Debug\Server.dll
+D:\Facultate\TestNouBun\Test\Server\obj\Debug\Server.pdb
